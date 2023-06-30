@@ -1,0 +1,31 @@
+/* Reset default margin and padding */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set box-sizing to border-box for accurate sizing */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Apply some basic styles to the grid container */
+  #grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px; /* Adjust this value as needed */
+    height: 500px; /* Adjust this value as needed */
+    margin: 20px auto;
+    border: 1px solid #ccc;
+  }
+  
+  /* Apply styles to the grid squares */
+  .grid-square {
+    border: 1px solid #ccc;
+  }
+  
+  /* Add hover effect */
+  .grid-square:hover {
+    background-color: #000;
+  }
+  
