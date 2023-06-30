@@ -8,6 +8,7 @@ body, ul, li {
   /* Set box-sizing to border-box for accurate sizing */
   * {
     box-sizing: border-box;
+    background-color: aquamarine;
   }
   
   /* Apply some basic styles to the grid container */
@@ -30,7 +31,7 @@ body, ul, li {
     background-color: #000;
   }
 
-  #header {
+  header {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
